@@ -15,6 +15,8 @@ class mig (
         redownload  => true, # The file already exists, we replace it
     }
 
+    # TODO: instead of grabing the RPM or deb url
+    #       it should be hosted in an actual repo instead
     package { 'mig':
         ensure   => present,
         source   => "/tmp/mig.${mig::params::ext}",
