@@ -4,7 +4,7 @@ class mig (
 ) {
     require mig::params
 
-    $url = "https://s3.amazonaws.com/mig-packages/mig-agent-nubis${mig::params::silly}${mig::params::version}.${mig::params::prod}${::architecture}.${mig::params::ext}"
+    $url = "https://s3.amazonaws.com/mig-packages/mig-agent-nubis${mig::params::silly}${version}.${mig::params::prod}${::architecture}.${mig::params::ext}"
 
     notice ("Grabbing from ${url}")
 
