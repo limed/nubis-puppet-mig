@@ -4,6 +4,10 @@ class mig (
 ) {
     require mig::params
 
+    if !($version) {
+        fail("Parameter version needs to be set")
+    }
+
     $url = "https://s3.amazonaws.com/mig-packages/mig-agent-nubis${mig::params::silly}${mig::params::version}.${mig::params::prod}${::architecture}.${mig::params::ext}"
 
     notice ("Grabbing from ${url}")
