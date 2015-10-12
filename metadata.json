@@ -4,9 +4,9 @@
   "author": "nubis",
   "summary": "Nubis puppet module for deploying mig",
   "license": "MPL-2.0",
-  "source": "https://github.com/limed/nubis-puppet-mig",
-  "project_page": "https://github.com/limed/nubis-puppet-mig",
-  "issues_url": "https://github.com/limed/nubis-puppet-mig/issues",
+  "source": "https://github.com/nubisproject/nubis-puppet-mig",
+  "project_page": "https://github.com/nubisproject/nubis-puppet-mig",
+  "issues_url": "https://github.com/nubisproject/nubis-puppet-mig/issues",
   "dependencies": [
     {
       "name": "puppetlabs/stdlib",
