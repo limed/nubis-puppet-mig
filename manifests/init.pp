@@ -1,6 +1,7 @@
 
 class mig (
-    $version
+    $version,
+    $build
 ) {
     require mig::params
 
@@ -8,7 +9,11 @@ class mig (
         fail("Parameter version needs to be set")
     }
 
-    $url = "https://s3.amazonaws.com/mig-packages/mig-agent-nubis${mig::params::silly}${version}.${mig::params::prod}${::architecture}.${mig::params::ext}"
+    if !($build) {
+        fail("Parameter build needs to be set")
+    }
+
+    $url = "https://s3.amazonaws.com/mozopsecrepo2/mig-public/it-nubis/mig-agent${mig::params::silly}${version}${mig::params::sep}${build}.${mig::params::prod}${::architecture}.${mig::params::ext}"
 
     notice ("Grabbing from ${url}")
 
