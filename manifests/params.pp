@@ -13,7 +13,7 @@ class mig::params {
             $prod       = "prod_"
             $silly      = "_"
             $provider   = "dpkg"
-            $sep        = "_"
+            $sep        = "-"
         }
         default: {
             fail("Unsupported OS Family: ${::osfamily}.")
