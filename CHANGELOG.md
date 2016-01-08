@@ -1,5 +1,16 @@
 # Change Log
 
+## [v1.0.1-1](https://github.com/nubisproject/nubis-puppet-mig/tree/v1.0.1-1) (2016-01-08)
+[Full Changelog](https://github.com/nubisproject/nubis-puppet-mig/compare/v1.0.1...v1.0.1-1)
+
+**Closed issues:**
+
+- Merge changes in from puppet base to this puppet module [\#10](https://github.com/nubisproject/nubis-puppet-mig/issues/10)
+
+**Merged pull requests:**
+
+- Merge in changes from mig.pp to its own module [\#12](https://github.com/nubisproject/nubis-puppet-mig/pull/12) ([limed](https://github.com/limed))
+
 ## [v1.0.1](https://github.com/nubisproject/nubis-puppet-mig/tree/v1.0.1) (2015-11-20)
 [Full Changelog](https://github.com/nubisproject/nubis-puppet-mig/compare/v0.2...v1.0.1)
 
@@ -14,8 +25,13 @@
 **Closed issues:**
 
 - Tag  release [\#8](https://github.com/nubisproject/nubis-puppet-mig/issues/8)
+- Tag v1.0.1 release [\#9](https://github.com/nubisproject/nubis-puppet-mig/issues/9)
 - Tag a new release of this module [\#7](https://github.com/nubisproject/nubis-puppet-mig/issues/7)
 - Update metada.json  [\#6](https://github.com/nubisproject/nubis-puppet-mig/issues/6)
+
+**Merged pull requests:**
+
+- Update CHANGELOG for v1.0.1 release [\#11](https://github.com/nubisproject/nubis-puppet-mig/pull/11) ([tinnightcap](https://github.com/tinnightcap))
 
 ## [v0.2](https://github.com/nubisproject/nubis-puppet-mig/tree/v0.2) (2015-10-12)
 [Full Changelog](https://github.com/nubisproject/nubis-puppet-mig/compare/v0.1...v0.2)
