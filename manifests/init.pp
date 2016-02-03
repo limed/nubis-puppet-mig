@@ -33,4 +33,12 @@ class mig (
         require  => Wget::Fetch["download MIG $version"]
     }
 
+    file { '/etc/mig':
+        ensure  => directory,
+        owner   => root,
+        group   => root,
+        mode    => '0755',
+        require => Wget::Fetch["download MIG ${version}"],
+    }
+
 }
