@@ -1,5 +1,17 @@
 # Change Log
 
+## [v1.0.1-2](https://github.com/nubisproject/nubis-puppet-mig/tree/v1.0.1-2) (2016-02-09)
+[Full Changelog](https://github.com/nubisproject/nubis-puppet-mig/compare/v1.0.1-1...v1.0.1-2)
+
+**Closed issues:**
+
+- create /etc/mig [\#15](https://github.com/nubisproject/nubis-puppet-mig/issues/15)
+
+**Merged pull requests:**
+
+- Create /etc/mig directory [\#17](https://github.com/nubisproject/nubis-puppet-mig/pull/17) ([limed](https://github.com/limed))
+- Update CHANGELOG for v1.0.1-1 release [\#14](https://github.com/nubisproject/nubis-puppet-mig/pull/14) ([limed](https://github.com/limed))
+
 ## [v1.0.1-1](https://github.com/nubisproject/nubis-puppet-mig/tree/v1.0.1-1) (2016-01-08)
 [Full Changelog](https://github.com/nubisproject/nubis-puppet-mig/compare/v1.0.1...v1.0.1-1)
 
