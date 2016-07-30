@@ -6,6 +6,11 @@
 **Closed issues:**
 
 - Tag v1.1.0 release [\#13](https://github.com/nubisproject/nubis-puppet-mig/issues/13)
+- Tag v1.2.0 release [\#20](https://github.com/nubisproject/nubis-puppet-mig/issues/20)
+
+**Merged pull requests:**
+
+- Update CHANGELOG for v1.2.0 release [\#21](https://github.com/nubisproject/nubis-puppet-mig/pull/21) ([tinnightcap](https://github.com/tinnightcap))
 
 ## [v1.1.0](https://github.com/nubisproject/nubis-puppet-mig/tree/v1.1.0) (2016-04-18)
 [Full Changelog](https://github.com/nubisproject/nubis-puppet-mig/compare/v1.0.1-2...v1.1.0)
